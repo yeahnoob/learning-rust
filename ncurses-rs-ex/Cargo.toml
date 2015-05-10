@@ -1,0 +1,7 @@
+[package]
+name = "ncurses-rs-ex"
+version = "0.1.0"
+authors = ["Xanadu Zhang <zgemlbox@gmail.com>"]
+
+[dependencies]
+ncurses = "*"
