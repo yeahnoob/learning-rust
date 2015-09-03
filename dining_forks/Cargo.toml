@@ -1,0 +1,4 @@
+[package]
+name = "dining_forks"
+version = "0.1.0"
+authors = ["Xanadu Zhang <yeahnoob@buaa.edu.cn>"]
