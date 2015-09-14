@@ -1,11 +1,17 @@
 use std::thread;
 
-#[test]
-fn it_works() {
+#[cfg(test)]
+mod tests {
+    use super::process;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(0, process());
+    }
 }
 
 #[no_mangle]
-pub extern fn process() {
+pub extern fn process() -> i32 {
     let handles: Vec<_> = (0..10).map(|_| {
         thread::spawn(|| {
             let mut x = 0;
@@ -22,4 +28,6 @@ pub extern fn process() {
     }
     println!("Done!");
 
+    0
 }
+

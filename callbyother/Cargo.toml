@@ -1,5 +1,5 @@
 [package]
-name = "call-by-other"
+name = "callbyother"
 version = "0.1.0"
 authors = ["Xanadu Zhang <yeahnoob@buaa.edu.cn>"]
 
