@@ -2,6 +2,7 @@
 name = "ncurses-rs-ex"
 version = "0.1.0"
 authors = ["Xanadu Zhang <zgemlbox@gmail.com>"]
+build = "build.rs"
 
 [dependencies]
 ncurses = "*"
